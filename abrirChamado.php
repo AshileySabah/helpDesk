@@ -1,6 +1,6 @@
 <?php
-  include 'head.php';
-  include 'checkLogin.php';
+  include_once 'head.php';
+  require_once 'checkLogin.php';
 ?>
 <div class="container">    
   <div class="row">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="row mt-5">
                   <div class="col-6">
-                    <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+                    <a href="home.php" class="btn btn-lg btn-warning btn-block">Voltar</a>
                   </div>
                   <div class="col-6">
                     <button class="btn btn-lg btn-info btn-block" type="submit">Abrir</button>
@@ -46,4 +46,4 @@
       </div>
     </div>
 </div>
-<?php include 'foot.php' ?>
+<?php include_once 'foot.php' ?>

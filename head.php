@@ -14,6 +14,12 @@
         width: 100%;
         margin: 0 auto;
       }
+      img.iconHome{
+        display: block;
+      }
+      a.links{
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
