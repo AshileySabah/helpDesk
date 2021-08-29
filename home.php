@@ -2,6 +2,7 @@
   include_once 'head.php';
   require_once 'checkLogin.php';
 ?>
+
 <div class="container">    
   <div class="row">
     <div class="card-chamado">
@@ -32,4 +33,5 @@
       </div>
     </div>
 </div>
+
 <?php include_once 'foot.php' ?>

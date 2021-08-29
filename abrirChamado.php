@@ -2,6 +2,7 @@
   include_once 'head.php';
   require_once 'checkLogin.php';
 ?>
+
 <?php if(isset($_GET['status']) && $_GET['status'] == 'sucesso'){ ?>
   <div class="alert alert-success alert-dismissible fade show" role="alert">
     Chamado aberto com sucesso!
@@ -10,6 +11,7 @@
     </button>
   </div>
 <?php } ?>
+
 <div class="container">    
   <div class="row">
     <div class="card-chamado">

@@ -31,6 +31,13 @@
             Não há registro de chamados.
           <?php } ?>
           <?php foreach ($listaChamados as $cadaRegistro){ ?>
+            <?php
+              if($_SESSION['perfil'] == 'usuario'){
+                if($_SESSION['usuarioID'] != $cadaRegistro[3]){
+                  continue;
+                }
+              }
+            ?>
             <div class="card mb-3 bg-light">
               <div class="card-body">
                 <h5 class="card-title"><?php echo $cadaRegistro[0] ?></h5>
@@ -49,4 +56,5 @@
     </div>
   </div>
 </div>
+
 <?php include_once 'foot.php' ?>

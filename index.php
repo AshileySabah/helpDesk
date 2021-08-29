@@ -1,4 +1,5 @@
 <?php include_once 'head.php' ?>
+
 <?php
   $mensagemErro = '';
 
@@ -10,6 +11,7 @@
     $mensagemErro = '* Faça login antes de acessar as páginas restritas';
   }
 ?>
+
 <div class="container">    
   <div class="row">
     <div class="card-login">
@@ -32,4 +34,5 @@
       </div>
     </div>
 </div>
+
 <?php include_once 'foot.php' ?>
