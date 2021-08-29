@@ -1,4 +1,7 @@
-<?php include 'head.php' ?>
+<?php
+  include 'head.php';
+  include 'checkLogin.php';
+?>
 <div class="container">    
   <div class="row">
     <div class="card-chamado">

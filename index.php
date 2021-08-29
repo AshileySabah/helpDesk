@@ -5,6 +5,10 @@
   if(isset($_GET['login']) && $_GET['login'] == 'erro'){
     $mensagemErro = '* O e-mail e/ou senha inválido(s)';
   }
+
+  if(isset($_GET['login']) && $_GET['login'] == 'erro2'){
+    $mensagemErro = '* Faça login antes de acessar as páginas restritas';
+  }
 ?>
 <div class="container">    
   <div class="row">

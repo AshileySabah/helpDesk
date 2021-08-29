@@ -1,4 +1,6 @@
 <?php
+	session_start();
+
 	$validado = false;
 
 	$usuariosValidos = array(
@@ -14,11 +16,10 @@
 	}
 
 	if($validado){
+		$_SESSION['autenticacao'] = 'sim';
 		header('Location: home.php');
-		$_SESSION['login'] = 'ok';
-		$_SESSION['email'] = $_POST['email'];
-		$_SESSION['senha'] = $_POST['senha'];
 	}else{
+		$_SESSION['autenticacao'] = 'nao';
 		header('Location: index.php?login=erro');
 	}
 ?>
