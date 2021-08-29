@@ -16,10 +16,10 @@
 	}
 
 	if($validado){
-		$_SESSION['autenticacao'] = 'sim';
+		$_SESSION['autenticacao'] = 'SIM';
 		header('Location: home.php');
 	}else{
-		$_SESSION['autenticacao'] = 'nao';
+		$_SESSION['autenticacao'] = 'NAO';
 		header('Location: index.php?login=erro');
 	}
 ?>

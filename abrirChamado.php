@@ -29,11 +29,11 @@
                   <label>Categoria</label>
                   <select required name="categoria" class="form-control">
                     <option value="">Selecione uma categoria</option>
-                    <option value="criacaoUsuario">Criação Usuário</option>
-                    <option value="impressora">Impressora</option>
-                    <option value="hardware">Hardware</option>
-                    <option value="software">Software</option>
-                    <option value="rede">Rede</option>
+                    <option value="Criação de Usuário">Criação de Usuário</option>
+                    <option value="Impressora">Impressora</option>
+                    <option value="Hardware">Hardware</option>
+                    <option value="Software">Software</option>
+                    <option value="Rede">Rede</option>
                   </select>
                 </div>
                 <div class="form-group">
